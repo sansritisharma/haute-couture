@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../Assets/Fonts/icomoon.eot');
+    src:  url('../fonts/icomoon.eot?ynatla#iefix') format('embedded-opentype'),
+      url('../Assets/Fonts/icomoon.ttf') format('truetype'),
+      url('../Assets/Fonts/icomoon.woff') format('woff'),
+      url('../Assets/Fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-button-App-Store .path1:before {
+    content: "\e900";
+    color: rgb(38, 45, 51);
+  }
+  .icon-button-App-Store .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-Logo-text:before {
+    content: "\e902";
+  }
+  .icon-Cart:before {
+    content: "\e903";
+    color: #bcbfc2;
+  }
+  .icon-circle:before {
+    content: "\e904";
+    color: #fff;
+  }
+  .icon-Path:before {
+    content: "\e905";
+    color: #fff;
+  }
+  .icon-Bookmark-1:before {
+    content: "\e906";
+    color: #bcbfc2;
+  }
+  .icon-Arrow:before {
+    content: "\e907";
+    color: #fff;
+  }
+  .icon-Facebook:before {
+    content: "\e908";
+    color: #fff;
+  }
+  .icon-Instagram:before {
+    content: "\e909";
+    color: #fff;
+  }
+  .icon-Twitter:before {
+    content: "\e90a";
+    color: #fff;
+  }
+  .icon-Phone:before {
+    content: "\e90b";
+    color: #bcbfc2;
+  }
+  .icon-Mail:before {
+    content: "\e90c";
+    color: #bcbfc2;
+  }
+  .icon-Send:before {
+    content: "\e90d";
+    color: #fff;
+  }
+  

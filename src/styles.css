@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+
+:root {
+    --back-drop: #EDEFF0;
+    --black: #262D33;
+    --white: #FFFFFF;
+    --purple: #AC8EE3;
+    --ash: #939699;
+    --coal: #4B5157;
+    --tart: #FF4F52;
+    --concrete: #CCD5E6;
+    --sea-blue: #B4D1E0;
+    --sky-blue: #4592FF;
+    --parrot-green: #3DC47E;
+    --smoke: #D9DADB;
+}
+
+body {
+    background-color: var(--back-drop);
+    font-family: 'Lato', sans-serif;
+}
+
+/* Utility classes */
+
+.d-flex {
+    display: flex;
+}
+.up {
+    text-transform: uppercase;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* Icons modifications */
+
+.icon-Cart {
+    font-size: large;
+}
+
+/* header section */
+
+header {
+    background-color: var(--white);
+    justify-content: space-evenly;
+    height: 4.375em;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+nav {
+    list-style: none;
+    justify-content: space-around;
+    width: 31.75em;   
+    font-size: 0.875em;
+}
+
+nav li a {
+    color: var(--ash);
+}
+
+.icon-Logo-text {
+    font-size: 6.8em;
+}
+
+.cart {
+    height: 40px;
+    border-radius: 27px;
+    width: 104px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.875em;
+    border: 1px solid var(--ash);
+    background-color: var(--white);
+}
+
+.carousel {
+    height: 35.625em;
+    background-image: url('../Assets/Images/hero.png/image-116.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-content h1 {
+    font-size: 3.4375em;
+    font-family: 'Roboto Slab', serif;
+    color: var(--black);
+    line-height:  70px;
+    width: 458px;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 10.3em;
+    left: 210px;
+    width: 458px;
+    height: 435px;
+}
+
+.carousel-content p {
+    width: 335px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.carousel-content button {
+    margin-top: 51px;
+    background-color: var(--sky-blue);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+}
