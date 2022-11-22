@@ -33,6 +33,11 @@ body {
     font-weight: 900;
 }
 
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Icons modifications */
 
 .icon-Cart {
@@ -67,9 +72,9 @@ nav li a {
 }
 
 .cart {
-    height: 40px;
-    border-radius: 27px;
-    width: 104px;
+    height:  2.5em;
+    border-radius:  1.6em;
+    width: 6.5em;       
     justify-content: space-evenly;
     align-items: center;
     font-size: 0.875em;
@@ -78,44 +83,86 @@ nav li a {
 }
 
 .carousel {
-    height: 35.625em;
-    background-image: url('../Assets/Images/hero.png/image-116.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../assets/Images/hero.png/image-116.png');
+    padding: 5.9375em  43.625em  6.875em 13.125em;
     position: relative;
 }
 
-.carousel-content h1 {
+.label {
+    background-color: var(--purple);
+    height: 15px;
+    width: 52px;
+    padding: 5px 12.5px;
+    color: var(--white);
+    font-size: 0.75em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-weight: 900;
+}
+
+.title {
+    margin-top: 1.25em;
     font-size: 3.4375em;
     font-family: 'Roboto Slab', serif;
     color: var(--black);
     line-height:  70px;
-    width: 458px;
 }
 
-.carousel-content {
-    position: absolute;
-    top: 10.3em;
-    left: 210px;
-    width: 458px;
-    height: 435px;
-}
-
-.carousel-content p {
-    width: 335px;
-    font-size: 18px;
+.para {
+    width:  20.9375em;
+    font-size: 1.125em;
     line-height: 30px;
     color: #4B5157;
     font-weight: 600;
     margin-top: 1em;
 }
 
-.carousel-content button {
-    margin-top: 51px;
+.btn {
     background-color: var(--sky-blue);
     color: var(--white);
     border: none;
-    padding: 12px 25px;
-    border-radius: 20px;
+    padding: 0.75em  1.5625em;
+    border-radius:  1.25em;
     font-weight: 600;
+}
+
+.shop-now {
+    margin-top: 51px;
+}
+
+.circle {
+    background-color: rgb(255,255,255, 0.4);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    justify-content: center; /* X-axis */
+    align-items: center; /* Y-axis */
+}
+
+.arrow-left {
+    position: absolute;
+    left: 7.0625em;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 7.0625em;
+}
+
+.arrow-left .icon-Path {
+    transform: rotate(180deg);
+}
+
+.product-gallery {
+    margin: 60px 113px;
+}
+
+.catalog {
+    height: 34.6875em;
+    column-gap: 30px;
+}
+
+.fashion-month {
+    background-image: url();
 }
